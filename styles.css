@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    
+    
+
+}
+
+img {
+    width: 250px;
+
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+.muffin-screen { 
+    display: flex;
+  align-items: center; 
+    justify-content:center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+
+.story-opening {
+    display: block;
+}
+
+
+
+.buttons {
+    display: block;
+}
+
+
+
+.trix-screen {
+    display: none;
+}
+
+/* .trixie {
+    display: none;
+}
+ */
+
+.muffin-screen {
+    display: none;
+}
+
+.muffin-man {
+    display: none;
+}
+
+.muffin-option {
+    display: none;
+}
+
+.muffin-end {
+    display: none;
+}
+
+.cliff {
+    display: none;
+}
+
+.ginger-option {
+    display: none;
+}
+
+.ginger-end {
+    display: none;
+}
+
+.gingerbread {
+    display: none;
+}
+
+.apple-end {
+    display: none;
+}
+
+/* .apple {
+    display: none;
+} */
+
+.cupcake-end {
+    display: none;
+}
+
+/* .cupcake {
+    display: none;
+} */
